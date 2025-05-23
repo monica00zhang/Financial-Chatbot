@@ -6,7 +6,7 @@ from utils import load_buffett_letters
 from openai_chatbot_api import BuffettRAG
 import pandas as pd
 import numpy as np
-from retrieve_faiss import search_answer
+from retrieve_faiss import answer_with_faiss_or_t5
 from load_financial_sheet import get_sheet_and_eva, get_continues_plot, analysis_continues, plot_financial_metrics
 
 # Set page layout
@@ -29,7 +29,7 @@ letters_data, company_sector_index, term_index = buffett_context
 rag = BuffettRAG(letters_data, term_index, company_sector_index)
 
 def get_bot_response(question):
-    answer = search_answer(question)
+    answer = answer_with_faiss_or_t5(question)
     return rag.get_refined_answer(question, answer)
 
 
