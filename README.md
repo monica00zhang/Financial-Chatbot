@@ -36,13 +36,17 @@
 4. **Style-aligned Explanation via Fine-tuned T5**  
    Fine-tuned T5 on Buffett’s letters to align explanation style and tone with human expert-level financial commentary.
 
-```mermaid
-graph TD
-    A[User Query] --> B[Hybrid Retriever]
-    B --> C[Event Extractor]
-    C --> D[Structured DB]
-    D --> E[Fine-tuned T5 Generator]
-    E --> F[Buffett-style Output]
+```bash
+[User Query]
+     ↓
+[Hybrid Retriever]
+     ↓
+[Event Extractor] → [Custom DB]
+     ↓
+[Fine-tuned T5 Generator]
+     ↓
+[Buffett-style Output]
+
 ```
 ---
 
