@@ -46,5 +46,5 @@ streamlit run run_financial_chatbot.py
 ## 📈 Example Outputs
 👇 Below is a sample demo of the chatbot answering questions based on uploaded financial reports:
 
-![demo](assets/demo.gif)
+![demo](assets/0513.gif)
 
