@@ -53,10 +53,11 @@ streamlit run run_financial_chatbot.py
    
 3. 💬 Chat-based interpretation of a financial metric’s long-term trend.
 4. 🪙 Buffett-style investment commentary on company fundamentals.
-![demo](assets/chat_func1.gif)
-
 5. 🧠 Chat-based explanation of a financial metric for a specific year (e.g., 2024).
 ![demo](assets/chat_func2.gif)
+
+![demo](assets/chat_func1.gif)
+
 
 
 
