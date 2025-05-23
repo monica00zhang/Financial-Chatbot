@@ -58,8 +58,7 @@
 ├── data/                       # Raw and preprocessed financial sheets
 ├── retriever/                 # RAG chunking, labeling, FAISS indexing
 ├── openai_api/                # OpenAI interface and generation logic
-├── streamlit_app/             # Streamlit-based chatbot interface
-├── run_financial_chatbot.py   # Main entrypoint script
+├── run_financial_chatbot.py   # Main entrypoint script with UI
 └── README.md
 
 ```
